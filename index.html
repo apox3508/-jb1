@@ -12,6 +12,25 @@
         <button id="theme-toggle-btn">Toggle Theme</button>
         <button id="generator-btn">Generate Numbers</button>
         <div id="numbers-container"></div>
+
+        <section class="partner-inquiry" aria-labelledby="partner-inquiry-title">
+            <h2 id="partner-inquiry-title">제휴 문의</h2>
+            <form action="https://formspree.io/f/xojlkrbw" method="POST">
+                <label for="company-name">회사명</label>
+                <input id="company-name" name="company" type="text" placeholder="예: ABC Corp" required>
+
+                <label for="contact-name">담당자명</label>
+                <input id="contact-name" name="name" type="text" placeholder="예: 홍길동" required>
+
+                <label for="contact-email">이메일</label>
+                <input id="contact-email" name="email" type="email" placeholder="example@company.com" required>
+
+                <label for="inquiry-message">문의 내용</label>
+                <textarea id="inquiry-message" name="message" rows="5" placeholder="제휴 제안 내용을 입력해주세요." required></textarea>
+
+                <button type="submit" class="submit-btn">보내기</button>
+            </form>
+        </section>
     </div>
     <script src="main.js"></script>
 </body>

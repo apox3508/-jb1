@@ -41,3 +41,52 @@ body.dark {
     margin-top: 20px;
     font-size: 1.5rem;
 }
+
+.partner-inquiry {
+    margin-top: 32px;
+    padding: 20px;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+}
+
+.partner-inquiry h2 {
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+}
+
+.partner-inquiry form {
+    display: grid;
+    gap: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.partner-inquiry label {
+    font-size: 0.95rem;
+}
+
+.partner-inquiry input,
+.partner-inquiry textarea {
+    padding: 10px 12px;
+    border: 1px solid var(--text-color);
+    border-radius: 6px;
+    background: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    font-size: 1rem;
+}
+
+.partner-inquiry input::placeholder,
+.partner-inquiry textarea::placeholder {
+    color: var(--btn-text-color);
+    opacity: 0.6;
+}
+
+.submit-btn {
+    padding: 10px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: 1px solid var(--text-color);
+}
